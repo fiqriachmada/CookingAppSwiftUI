@@ -13,12 +13,12 @@
 		F4337C522547C38700E996AE /* CookingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4337C512547C38700E996AE /* CookingAppTests.swift */; };
 		F4337C5D2547C38700E996AE /* CookingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4337C5C2547C38700E996AE /* CookingAppUITests.swift */; };
 		F4337C952547EC3800E996AE /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4337C942547EC3800E996AE /* AppView.swift */; };
-		F4337C9A2547ED0E00E996AE /* CookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4337C992547ED0E00E996AE /* CookingView.swift */; };
 		F4337CAD2547F2CF00E996AE /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4337CAC2547F2CF00E996AE /* RipeningView.swift */; };
 		F4337CB22547F2FD00E996AE /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4337CB12547F2FD00E996AE /* SettingView.swift */; };
 		F4337CBA2547F3EA00E996AE /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4337CB92547F3EA00E996AE /* RecipesView.swift */; };
 		F4337CC22547F54100E996AE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4337CC12547F54100E996AE /* Launch Screen.storyboard */; };
 		F4337CCD2547FA4600E996AE /* Trying.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4337CCC2547FA4600E996AE /* Trying.storyboard */; };
+		F4A9F910254804E700EDA227 /* CookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A9F90F254804E700EDA227 /* CookingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,12 +51,12 @@
 		F4337C5C2547C38700E996AE /* CookingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingAppUITests.swift; sourceTree = "<group>"; };
 		F4337C5E2547C38700E996AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4337C942547EC3800E996AE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
-		F4337C992547ED0E00E996AE /* CookingView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = CookingView.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 1; wrapsLines = 1; };
 		F4337CAC2547F2CF00E996AE /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
 		F4337CB12547F2FD00E996AE /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		F4337CB92547F3EA00E996AE /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
 		F4337CC12547F54100E996AE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		F4337CCC2547FA4600E996AE /* Trying.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Trying.storyboard; sourceTree = "<group>"; };
+		F4A9F90F254804E700EDA227 /* CookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,11 +163,11 @@
 		F4337C8B2547EB2200E996AE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F4337C992547ED0E00E996AE /* CookingView.swift */,
 				F4337CB92547F3EA00E996AE /* RecipesView.swift */,
 				F4337CAC2547F2CF00E996AE /* RipeningView.swift */,
 				F4337CB12547F2FD00E996AE /* SettingView.swift */,
 				F4337C942547EC3800E996AE /* AppView.swift */,
+				F4A9F90F254804E700EDA227 /* CookingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,8 +303,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4337C9A2547ED0E00E996AE /* CookingView.swift in Sources */,
 				F4337CAD2547F2CF00E996AE /* RipeningView.swift in Sources */,
+				F4A9F910254804E700EDA227 /* CookingView.swift in Sources */,
 				F4337CB22547F2FD00E996AE /* SettingView.swift in Sources */,
 				F4337C402547C38200E996AE /* CookingAppApp.swift in Sources */,
 				F4337CBA2547F3EA00E996AE /* RecipesView.swift in Sources */,
